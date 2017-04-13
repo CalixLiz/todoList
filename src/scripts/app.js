@@ -2,11 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Backbone from 'backbone'
 import init from './init'
-import TodoApp from './todoList.js'
+import HomeView from './homeView'
 
 
 const app = function() {
-  ReactDOM.render(<TodoApp />, document.querySelector('.container'))
+  ReactDOM.render(<HomeView />, document.querySelector('.container'))
 }
 
 
@@ -16,3 +16,4 @@ const app = function() {
 export const app_name = init()
 app()
 // x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..
+
